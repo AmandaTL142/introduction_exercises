@@ -7,6 +7,9 @@ const numberTwo = "2.30";
 // add those two numbers and show the result
 // you cannot touch line 1 neither line 2
 
+const result = Number(numberOne) + Number(numberTwo);
+
+console.log(result);
 
 // --------------------------------------
 
@@ -16,6 +19,10 @@ const numberTwo = "2.30";
 
 const anotherNumberOne = "1.10";
 const anotherNumberTwo = "2.30";
+
+const result2 = Number(anotherNumberOne) + Number(anotherNumberTwo);
+
+console.log(result2.toFixed(2));
 
 
 // --------------------------------------
@@ -28,7 +35,9 @@ const three = 98;
 // Show in the console the avg. with 5 decimals
 
 
+result3 = (one+two+three)/3
 
+console.log(result3.toFixed(5));
 
 
 // --------------------------------------
@@ -37,6 +46,7 @@ const three = 98;
 const letters = "abc";
 // Get me the character "c"
 
+console.log(letters[2]);
 
 
 
@@ -47,6 +57,13 @@ const fact = "You are learning javascript!";
 
 // capitalize the J in Javascript
 
+const string1 = fact.slice(0,17)
+const string2 = fact.charAt(17).toUpperCase();
+const string3 = fact.slice(18)
+
+const factResult = string1+string2+string3
+
+console.log(factResult);
 
 // --------------------------------------
 
